@@ -1,0 +1,162 @@
+
+
+@import url(css/freelancer.min.css);
+/*navbar*/
+.navbar-custom{
+  background:rgba(235, 235, 235, 0.8);
+  padding:0px;
+}
+.navbar-custom.affix{
+  background: rgba(0, 0, 0, 0.1);;
+  color:white;
+  padding: 0px;
+}
+.navbar-custom .navbar-nav li a{
+  color:black;
+}
+.navbar-custom .navbar-nav li a:hover{
+  color:rgba(0, 0, 0, 0.5);
+}
+.navbar-custom .navbar-nav li a:active, .navbar-custom .navbar-nav li a:focus{
+  color:rgba(0, 0, 0, 0.1);
+}
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover{
+  color:black;
+  background:rgba(0, 0, 0, 0);
+}
+.navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover{
+
+  color:black;
+}
+.navbar-custom .navbar-brand:hover{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Frontpage */
+div#maincontent{
+height:90vh;
+}
+#pageBreak{
+  height:100px;
+  width: auto;
+}
+
+@media (max-width: 1300px){
+#frontPageImg{
+
+
+  display: none;
+
+
+}
+}
+#selfie{
+padding: 5%
+
+}
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+
+  background-color: black;
+  color:#fff;
+  border-color: black;
+}
+
+
+section{
+  min-height: 100%;
+}
+
+p.about,p{
+
+padding-bottom: 5%;
+
+  font-size: 3em;
+  text-overflow: ellipsis;
+}
+
+h2.portfolio,h2{
+padding-bottom: 5%;
+}
+
+h1.name, h1{
+  color:black;
+  font-size: 6.5em;
+
+}
+header{
+  background:#EBEBEB
+
+}
+header .intro-text .name{
+  font-size: 8em;
+}
+span.skills{
+  color:black;
+  font-size: 2.5em;
+}
+
+/*general*/
+h1,h2,h3,h4,h5,h6{
+  color:black;
+
+}
+p{
+  color:black;
+
+}
+body{
+  background: #EBEBEB
+}
+/* about */
+
+section.success{
+  background:#EBEBEB
+
+
+}
+.btn-outline{
+  color:black;
+  border:2px solid black;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active{
+  color: rgba(0 , 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
+}
+/* portfolio */
+section.portfolio{
+  background: #EBEBEB
+}
+#portfolio .portfolio-item .portfolio-link .caption{
+  background: rgba(225, 225, 225, 0.9);
+}
+/* Contact */
+section#contact{
+  height: 80vh;
+}
+.btn-success{
+  color:black;
+  background-color: #EBEBEB;
+  border-color: black;
+}
+
+.btn-success.active, .btn-success:active, .btn-success:focus, .btn-success:hover, .open .dropdown-toggle.btn-success{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.floating-label-form-group-with-focus label {
+  color: #000;
+}
+
+/* footer */
+footer .footer-above,footer .footer-below{
+  background: #EBEBEB;
+  color: black;
+}
+
+.carousel-caption{
+    display: none;
+}
